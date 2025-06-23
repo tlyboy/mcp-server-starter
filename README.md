@@ -1,0 +1,3 @@
+# mcp starter
+
+🚀 mcp starter

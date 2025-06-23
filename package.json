@@ -1,0 +1,31 @@
+{
+  "name": "mcp-starter",
+  "version": "1.0.0",
+  "description": "mcp starter",
+  "keywords": [
+    "mcp"
+  ],
+  "license": "MIT",
+  "author": "Guany",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "mcp-starter": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "prettier": "^3.6.0",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@10.11.1"
+}
