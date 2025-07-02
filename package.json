@@ -19,13 +19,13 @@
     "build": "tsc && chmod 755 build/index.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.13.0",
+    "@modelcontextprotocol/sdk": "^1.13.3",
     "zod": "^3.25.67"
   },
   "devDependencies": {
-    "@types/node": "^24.0.3",
-    "prettier": "^3.6.0",
+    "@types/node": "^24.0.10",
+    "prettier": "^3.6.2",
     "typescript": "^5.8.3"
   },
-  "packageManager": "pnpm@10.11.1"
+  "packageManager": "pnpm@10.12.4"
 }
