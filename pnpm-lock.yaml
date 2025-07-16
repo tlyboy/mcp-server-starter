@@ -9,15 +9,15 @@ importers:
   .:
     dependencies:
       '@modelcontextprotocol/sdk':
-        specifier: ^1.13.3
-        version: 1.13.3
+        specifier: ^1.15.1
+        version: 1.15.1
       zod:
-        specifier: ^3.25.67
-        version: 3.25.67
+        specifier: ^4.0.5
+        version: 4.0.5
     devDependencies:
       '@types/node':
-        specifier: ^24.0.10
-        version: 24.0.10
+        specifier: ^24.0.14
+        version: 24.0.14
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -27,12 +27,12 @@ importers:
 
 packages:
 
-  '@modelcontextprotocol/sdk@1.13.3':
-    resolution: {integrity: sha512-bGwA78F/U5G2jrnsdRkPY3IwIwZeWUEfb5o764b79lb0rJmMT76TLwKhdNZOWakOQtedYefwIR4emisEMvInKA==}
+  '@modelcontextprotocol/sdk@1.15.1':
+    resolution: {integrity: sha512-W/XlN9c528yYn+9MQkVjxiTPgPxoxt+oczfjHBDsJx0+59+O7B75Zhsp0B16Xbwbz8ANISDajh6+V7nIcPMc5w==}
     engines: {node: '>=18'}
 
-  '@types/node@24.0.10':
-    resolution: {integrity: sha512-ENHwaH+JIRTDIEEbDK6QSQntAYGtbvdDXnMXnZaZ6k13Du1dPMmprkEHIL7ok2Wl2aZevetwTAb5S+7yIF+enA==}
+  '@types/node@24.0.14':
+    resolution: {integrity: sha512-4zXMWD91vBLGRtHK3YbIoFMia+1nqEz72coM42C5ETjnNCa/heoj7NT1G67iAfOqMmcfhuCZ4uNpyz8EjlAejw==}
 
   accepts@2.0.0:
     resolution: {integrity: sha512-5cvg6CtKwfgdmVqY1WIiXKc3Q1bkRqGLi+2W/6ao+6Y7gu/RCwRuAhGEzh5B4KlszSuTLgZYuqFqo5bImjNKng==}
@@ -386,9 +386,12 @@ packages:
   zod@3.25.67:
     resolution: {integrity: sha512-idA2YXwpCdqUSKRCACDE6ItZD9TZzy3OZMtpfLoh6oPR47lipysRrJfjzMqFxQ3uJuUPyUeWe1r9vLH33xO/Qw==}
 
+  zod@4.0.5:
+    resolution: {integrity: sha512-/5UuuRPStvHXu7RS+gmvRf4NXrNxpSllGwDnCBcJZtQsKrviYXm54yDGV2KYNLT5kq0lHGcl7lqWJLgSaG+tgA==}
+
 snapshots:
 
-  '@modelcontextprotocol/sdk@1.13.3':
+  '@modelcontextprotocol/sdk@1.15.1':
     dependencies:
       ajv: 6.12.6
       content-type: 1.0.5
@@ -405,7 +408,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@types/node@24.0.10':
+  '@types/node@24.0.14':
     dependencies:
       undici-types: 7.8.0
 
@@ -775,3 +778,5 @@ snapshots:
       zod: 3.25.67
 
   zod@3.25.67: {}
+
+  zod@4.0.5: {}
