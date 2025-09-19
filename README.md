@@ -1,3 +1,3 @@
-# mcp starter
+# mcp server starter
 
-🚀 mcp starter
+🚀 mcp server starter
